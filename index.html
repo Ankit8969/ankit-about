@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>@nkit a web designer</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Montez&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <style>
+    body
+    {
+      margin: 0px 0px 0px 0px;
+    }
+    #main1
+    {
+      background:#c6f1d6;
+    }
+    .header1
+    {
+      margin-top:0px;
+      margin-left: 25%;
+      display:grid;
+      grid-template-columns: 450px 450px;
+      grid-gap:150px;
+    }
+    .header1-photo
+    {
+      padding-top:25px;
+    }
+    .header1-links
+    {
+      font-size:20px;
+      padding-top:50px; /* font-family: 'Montez', cursive;  font-family: 'Great Vibes', cursive; */
+      padding-left: 45px;
+      word-spacing: 20px;
+    }
+    #links
+    {
+      text-decoration: none;
+      color:#216583;
+    }
+    .heading
+    {
+      width:25%;
+      color: #41aaa8;
+    }
+    .heading h1
+    {
+      word-spacing: 25px;
+    }
+    span
+    {
+      font-size:85px;
+      font-family: 'Great Vibes', cursive;
+    }
+    .heading-paragraph
+    {
+      font-size:25px;
+      padding-top: 20px;
+    }
+    .main2
+    {
+      margin-top:50px;
+      width:450px;
+      text-align: center;
+      margin-left:35%;
+    }
+    .main2 p
+    {
+      font-size:20px;
+    }
+    hr
+    {
+      width:6%;
+      color:#41aaa8;
+      border-width:8px;
+      border-style:none;
+      border-top-style:dotted;
+    }
+    #whaticando
+    {
+      font-size:55px;
+    }
+    .main3
+    {
+      width:30%;
+      margin-left:35%;
+      display:grid;
+      grid-template-columns:200px 1000px;
+      grid-column-gap: 80px;
+    }
+    .main3-photo
+    {
+      width:200px;
+    }
+    .main3-paragraph
+    {
+      width:35%;
+    }
+    .main4
+    {
+      margin-left:35%;
+      width:40%;
+      display:grid;
+      grid-template-columns:450px 200px;
+    }
+    .main4-paragraph
+    {
+      width:330px;
+    }
+    .main5
+    {
+      width:35%;
+      text-align: center;
+      margin-left:32%;
+    }
+    .main5 h1
+    {
+      font-size:48px;
+    }
+    .main5 h2
+    {
+      font-size:25px;
+    }
+    .main4 p
+    {
+      font-size:20px;
+    }
+    .main5 p
+    {
+      font-size:20px;
+    }
+    .main3 p
+    {
+      font-size:20px;
+    }
+    .myButton {
+      background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf));
+      background:-moz-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+      background:-webkit-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+      background:-o-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+      background:-ms-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+      background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf',GradientType=0);
+      background-color:#63b8ee;
+      -moz-border-radius:4px;
+      -webkit-border-radius:4px;
+      border-radius:4px;
+      display:inline-block;
+      cursor:pointer;
+      color:#14396a;
+      font-family:Georgia;
+      font-size:20px;
+      font-weight:bold;
+      font-style:italic;
+      padding:15px 17px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #7cacde;
+    }
+    .myButton:hover {
+      background:-gradient(linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee));
+      background:-moz-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+      background:-webkit-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+      background:-o-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+      background:-ms-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+      background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee',GradientType=0);
+      background-color:#468ccf;
+    }
+    .myButton:active {
+      position:relative;
+      top:1px;
+    }
+    .last
+    {
+      background:#41aaa8;
+      width:100%;
+      height:150px;
+    }
+    #last-links
+    {
+      font-size:20px;
+      margin-top:35px;
+      padding-left:15px;
+      text-decoration:none;
+      color:#105e62;
+    }
+    #last-link
+    {
+      text-decoration:none;
+      color:#105e62;
+    }
+    #last-link:hover
+    {
+      text-decoration:underline;
+      color:#105e62;
+    }
+    #last-links:hover
+    {
+      color:#38470b;
+    }
+    .last p
+    {
+      color:#105e62;
+    }
+    @media screen and (max-width:750px)
+    {
+      body
+      {
+        width:600px;
+        background-color:lightgreen;
+      }
+      #mountain
+      {
+        width:400px;
+      }
+      #main1,.main2,.main3,.main4,.main5,.last
+      {
+        width:600px;
+        margin-left:0px;
+        padding-left:0px;
+      }
+
+    }
+
+    </style>
+    <script type="text/javascript">
+      alert("view in desktop mode:");
+    </script>
+  </head>
+  <body>
+    <div id="main1">
+    <div class="header1">
+        <div class="header1-photo">
+          <img id="header-first-photo" src="me.svg" alt="" width="75px">
+        </div>
+        <div class="header1-links">
+          <a id="links" href="#about">About </a>
+          <a  id="links" href="#works"> Works </a>
+          <a  id="links" href="#notes">Notes </a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <center>
+    <div  id="about" class="heading">
+      <h1> <span>I</span>'m <span>A</span>nkit. </h1>
+      <p class="heading-paragraph" >a web designer</p>
+    </div>
+    <img id="mountain" src="land.svg" alt="mountain" width="950px">
+    </center>
+  </div>
+  <div class="main2">
+      <img src="circle-cropped.png" alt="" width="145px">
+    <h1 style=" color:#41aaa8; font-size:40px; font-family:'Montez', cursive;">  Hi. </h1>
+    <p>
+      I'm a web designer / developer based in Bihar, India.
+       I have a passion for web design and love to create for web and mobile apps.
+    </p>
+  </div>
+  <br> <hr> <br> <br>
+  <p id="whaticando" style=" color:#4baea0;" align="center"> What I can do. </p>
+  <br> <br>
+  <div class="main3">
+    <div class="main3-photo">
+      <img src="me.svg" alt="" width="145px">
+    </div>
+    <div class="main3-paragraph">
+    <h2 class="main3-heading" style=" color:#4baea0;">  Design what you want.</h2>
+    <p> I like to keep it simple. My goals are to focus
+     on typography, content and conveying the message
+     that you want to send. </p>
+    </div>
+  </div>
+    <br><br><br> <hr>  <br><br><br>
+  <div class="main4">
+    <div class="main4-paragraph">
+    <h2 id="notes" class="main4-heading" style=" color:#4baea0;"> Develop what you need. </h2>
+    <p> I'm a developer, so I know how to create your website to run across
+       devices using the latest technologies available.</p>
+    </div>
+    <div class="main4-photo">
+      <img src="me.svg" alt="" width="145px">
+    </div>
+  </div>
+  <br><br><br> <hr>  <br><br><br>
+  <div class="main5">
+       <h1 id="works" style=" color:#4baea0; font-family: 'Poppins', sans-serif;">I can help. </h1>
+       <br>
+       <h2 style=" color:#41aaa8; font-family: 'Poppins', sans-serif;">I’m currently available for freelance work.</h2>
+      <br>
+       <p>If you have a project that you want to get started, think you need my help with somethi
+         ng or just fancy saying hey, then get in touch.</p>
+         <a href="mailto:yadavankit8969@gmail.com" class="myButton">MESSAGE ME</a>
+  </div>
+  <br><br><br> <hr>  <br><br><br>
+  <div class="last">
+    <center>
+      <br>
+    <a id="last-links" href="https://www.facebook.com/profile.php?id=100005022737851">facebook</a>
+    <a  id="last-links" href="https://www.freelancer.com/me">free lancer</a>
+    <a  id="last-links" href="mailto:yadavankit8969@gmail.com">hire me</a>
+    <br><br>
+   <p>  © 2019<a id="last-link" href="#"> Ankit Kumar.</a> All rights reserved.</p>
+  </center>
+  </div>
+  </body>
+</html>
